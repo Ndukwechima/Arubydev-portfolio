@@ -2,13 +2,22 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import project1 from '../../assets/images/p6.png'
+import project2 from "../../assets/images/p8.png";
+import project3 from "../../assets/images/p13.png";
+import project4 from "../../assets/images/p10.png";
+import project5 from "../../assets/images/p7.png";
+import project6 from "../../assets/images/p11.png";
+import project7 from "../../assets/images/p3.png";
+import project8 from "../../assets/images/p9.png";
+
 
 const projects = [
   {
     name: "E-commerce App",
     year: "May 2024",
     align: "right",
-    image: "../../public/images/p6.png",
+    image: project1,
     link: "https://e-shop-next-typescript.vercel.app/",
   },
 
@@ -16,7 +25,7 @@ const projects = [
     name: "Modern Dashboard UI",
     year: "Sept 2024",
     align: "left",
-    image: "../../public/images/p8.png",
+    image: project2,
     link: "https://modern-react-admin-dashboard-ui.vercel.app/",
   },
 
@@ -24,7 +33,7 @@ const projects = [
     name: "Doctors Consulting UI",
     year: "Jan 2025",
     align: "right",
-    image: "../../public/images/p13.png",
+    image: project3,
     link: "https://med-consult.vercel.app/",
   },
 
@@ -32,7 +41,7 @@ const projects = [
     name: "Business Portfolio",
     year: "Nov 2024",
     align: "left",
-    image: "../../public/images/p10.png",
+    image: project4,
     link: "https://business-portfolio-website.vercel.app/",
   },
 
@@ -40,7 +49,7 @@ const projects = [
     name: "Movie Web App",
     year: "Dec 2023",
     align: "right",
-    image: "../../public/images/p7.png",
+    image: project5,
     link: "https://movie-web-app-iota.vercel.app/",
   },
 
@@ -48,7 +57,7 @@ const projects = [
     name: "Restaurant Landing Page",
     year: "Jan 2025",
     align: "left",
-    image: "../../public/images/p11.png",
+    image: project6,
     link: "https://restaurant-single-page-website-javascript.vercel.app/",
   },
 
@@ -56,7 +65,7 @@ const projects = [
     name: "Modern Multi-Pages Website",
     year: "Jan 2025",
     align: "right",
-    image: "../../public/images/p3.png",
+    image: project7,
     link: "https://modern-website-javascript.netlify.app/",
   },
 
@@ -64,7 +73,7 @@ const projects = [
     name: "Agro Business Landing page",
     year: "Dec 2024",
     align: "left",
-    image: "../../public/images/p9.png",
+    image: project8,
     link: "https://okenkwu-theta.vercel.app/",
   },
 ];

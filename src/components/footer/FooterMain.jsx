@@ -37,7 +37,7 @@ const FooterMain = () => {
                   duration={500}
                   offset={-120}
                   to={item.section}
-                  className="hover:text-cyan transition-all duration-500 cursor-pointer"
+                  className="hover:text-orange transition-all duration-500 cursor-pointer"
                 >
                   {item.name}
                 </Link>

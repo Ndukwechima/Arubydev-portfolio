@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
-
+import hero from '../../assets/images/HexaPic.png'
 const HeroPic = () => {
   return (
     <motion.div
@@ -12,7 +12,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/HexaPic.png"
+        src={hero}
         alt="Aruby Chima"
         className="max-h-[450px] w-auto hidden lg:block"
       />
