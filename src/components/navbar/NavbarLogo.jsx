@@ -6,7 +6,7 @@ const NavbarLogo = () => {
       <h1 className="text-white  text-2xl hidden md:block">
         <span className="text-orange">Chima</span> Arubuike
       </h1>
-      <div className="relative flex justify-center items-center md:hidden border-2 border-orange rounded-full p-2 w-16 h-16">
+      <div className="relative flex justify-center items-center md:hidden border-2 border-orange rounded-full p-2 w-12 h-12">
         {/* CA text remains static */}
         <h1 className="text-cyan font-special font-extrabold text-2xl md:hidden block">
           CA
