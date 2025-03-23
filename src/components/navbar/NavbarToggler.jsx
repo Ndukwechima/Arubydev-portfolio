@@ -13,7 +13,7 @@ const NavbarToggler = () => {
       className="text-2xl p-3 border border-orange rounded-full"
       onClick={setToggleMenu}
     >
-      <GiHamburgerMenu />
+      <GiHamburgerMenu className="text-orange" />
     </button>
   );
 };
