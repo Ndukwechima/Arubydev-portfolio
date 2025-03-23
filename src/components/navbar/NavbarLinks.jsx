@@ -12,9 +12,9 @@ const NavbarLinks = () => {
   return (
     <ul
       className="flex lg:flex-row flex-col gap-6 text-white 
-    font-body lg:relative absolute top-[120%] text-center 
+    font-body lg:relative absolute top-[100%] text-center 
     left-[50%] -translate-x-[50%] lg:text-md text-xl
-     bg-cyan/30 backdrop-blur-lg lg:bg-dark-blue w-full py-4"
+     bg-[#008ca0] backdrop-blur-lg lg:bg-dark-blue w-full py-4 rounded-br-md rounded-bl-md"
     >
       {links.map((link, index) => {
         return (

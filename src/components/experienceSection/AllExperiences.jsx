@@ -10,7 +10,6 @@ const experiences = [
     date: "2024 - Present",
     responsibilities: [
       "Building a landing page for a client.",
-      "Implemented reusable components.",
       "Implemented responsive design.",
       "Added animations",
     ],
@@ -22,7 +21,7 @@ const experiences = [
     responsibilities: [
       "Collaborate with my mentor throughout the project",
       "Implemented reusable components.",
-      "Fixed bugs and improved the code.",
+      "Fixed bugs.",
     ],
   },
   {
@@ -31,7 +30,17 @@ const experiences = [
     date: "2024 - Ended",
     responsibilities: [
       "Teaching HTML, CSS & JavaScript",
-      "Helped students through their way in learning web development technologies.",
+      "Guide students through their way in learning web development.",
+    ],
+  },
+
+  {
+    job: "Javascript Instructor",
+    Personal: "",
+    date: "2025 - current",
+    responsibilities: [
+      "Teaching JavaScript",
+      "Teaching group of indivituals Javascript to be ready for React.js.",
     ],
   },
 
@@ -40,7 +49,7 @@ const experiences = [
     company: "Event-padi",
     date: "2024 - Ended",
     responsibilities: [
-      "Created the UI of the Event-padi website App",
+      "Created some pages for Event-padi",
       "Implemented reusable components.",
       "Implemented responsive design.",
     ],
@@ -54,7 +63,7 @@ const AllExperiences = () => {
         return (
           <>
             <SingleExperience key={index} experience={experience} />
-            {index < 3 ? (
+            {index < 4 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
                 initial="hidden"

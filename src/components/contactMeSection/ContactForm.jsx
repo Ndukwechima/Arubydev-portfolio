@@ -39,7 +39,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <p className="text-cyan">{success}</p>
       <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
         <input
@@ -67,13 +67,16 @@ const ContactForm = () => {
           cols="50"
           placeholder="Message"
           required
-          className=" rounded-lg outline-none border border-gray-200 p-2"
+          className=" rounded-lg outline-none border border-gray-200
+           p-2"
           value={message}
           onChange={handleMessage}
         />
         <button
           type="submit"
-          className="w-full rounded-lg  text-dark-blue h-12 font-bold text-xl hover:bg-darkCyan bg-orange transition-all duration-500"
+          className="w-full rounded-lg  text-dark-blue h-12 font-bold 
+          text-xl hover:bg-darkCyan bg-orange transition-all 
+          duration-500"
         >
           Send
         </button>
