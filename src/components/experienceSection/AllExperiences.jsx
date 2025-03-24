@@ -5,6 +5,16 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
+    job: "Javascript Instructor",
+    Personal: "Aruby",
+    date: "2025 - current",
+    responsibilities: [
+      "Teaching JavaScript",
+      "Teaching group of indivituals Javascript to be ready for React.js.",
+    ],
+  },
+
+  {
     job: "Front-End Developer",
     company: "3kMart",
     date: "2024 - Present",
@@ -14,6 +24,7 @@ const experiences = [
       "Added animations",
     ],
   },
+
   {
     job: "Front-End Developer",
     company: "Freelancing",
@@ -24,6 +35,7 @@ const experiences = [
       "Fixed bugs.",
     ],
   },
+
   {
     job: "Web Development Instructor",
     company: "Kiddie Tech Ville",
@@ -31,16 +43,6 @@ const experiences = [
     responsibilities: [
       "Teaching HTML, CSS & JavaScript",
       "Guide students through their way in learning web development.",
-    ],
-  },
-
-  {
-    job: "Javascript Instructor",
-    Personal: "",
-    date: "2025 - current",
-    responsibilities: [
-      "Teaching JavaScript",
-      "Teaching group of indivituals Javascript to be ready for React.js.",
     ],
   },
 
