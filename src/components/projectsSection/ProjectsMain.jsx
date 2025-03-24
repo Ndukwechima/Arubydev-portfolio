@@ -22,22 +22,6 @@ const projects = [
   },
 
   {
-    name: "Modern Dashboard UI",
-    year: "Sept 2024",
-    align: "left",
-    image: project2,
-    link: "https://modern-react-admin-dashboard-ui.vercel.app/",
-  },
-
-  {
-    name: "Doctors Consulting UI",
-    year: "Jan 2025",
-    align: "right",
-    image: project3,
-    link: "https://med-consult.vercel.app/",
-  },
-
-  {
     name: "Business Portfolio",
     year: "Nov 2024",
     align: "left",
@@ -46,11 +30,35 @@ const projects = [
   },
 
   {
+    name: "Modern Dashboard UI",
+    year: "Sept 2024",
+    align: "left",
+    image: project2,
+    link: "https://modern-react-admin-dashboard-ui.vercel.app/",
+  },
+
+  {
     name: "Movie Web App",
     year: "Dec 2023",
     align: "right",
     image: project5,
     link: "https://movie-web-app-iota.vercel.app/",
+  },
+
+  {
+    name: "Agro Business Landing page",
+    year: "Dec 2024",
+    align: "left",
+    image: project8,
+    link: "https://okenkwu-theta.vercel.app/",
+  },
+
+  {
+    name: "Doctors Consulting UI",
+    year: "Jan 2025",
+    align: "right",
+    image: project3,
+    link: "https://med-consult.vercel.app/",
   },
 
   {
@@ -67,14 +75,6 @@ const projects = [
     align: "right",
     image: project7,
     link: "https://modern-website-javascript.netlify.app/",
-  },
-
-  {
-    name: "Agro Business Landing page",
-    year: "Dec 2024",
-    align: "left",
-    image: project8,
-    link: "https://okenkwu-theta.vercel.app/",
   },
 ];
 
