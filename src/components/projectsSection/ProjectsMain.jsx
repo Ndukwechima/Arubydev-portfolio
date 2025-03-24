@@ -42,7 +42,7 @@ const projects = [
     year: "Nov 2024",
     align: "left",
     image: project4,
-    link: "https://business-portfolio-website.vercel.app/",
+    link: "https://www.ushaseer.com/",
   },
 
   {
