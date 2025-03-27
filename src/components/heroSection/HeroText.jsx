@@ -56,7 +56,7 @@ const HeroText = () => {
       from-darkCyan to-orange transition-all duration-500 hover:scale-110
        hover:border-orange cursor-pointer hover:shadow-cyanShadow"
         >
-          <a href="https://drive.google.com/file/d/1UFbM6m4m5kPbJuyAIfrX-VAuJAtVM67q/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/11R8ndzOar_US3rezHchpP1hD0hXHabrD/view?usp=drive_link">
             Download CV
           </a>
           <div className="hidden md:block">
