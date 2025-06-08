@@ -95,7 +95,7 @@ const projects = [
   {
     name: "Restaurant Landing Page",
     year: "Jan 2025",
-    align: "right",
+    align: "left",
     image: project6,
     link: "https://restaurant-single-page-website-javascript.vercel.app/",
   },
